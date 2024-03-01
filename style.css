@@ -29,3 +29,9 @@
 .islam:hover{
     background-color: chartreuse;
 }
+.result{
+    width: 800px;
+    height: 500px;
+    background-color: aqua;
+    margin: 0 auto;
+}
