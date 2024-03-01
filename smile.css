@@ -1,0 +1,76 @@
+body{ 
+    background-color: #2d2013; 
+    padding: 0; 
+    margin: 0; 
+} 
+.wrapper{ 
+    width: 1440px; 
+    margin: 0 auto; 
+} 
+.container{ 
+    width: 1200px; 
+    margin: 0 auto; 
+} 
+.header{ 
+   padding: 0; 
+   width: 100%; 
+   background-color: #23180d; 
+ 
+}  
+.nav{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 84px; 
+} 
+.search{ 
+    position: relative; 
+} 
+.search input{ 
+    background-color: #fff; 
+    border-radius: 6px; 
+    padding: 5px 10px; 
+    width: 140px; 
+    color: gray; 
+    height: 30px; 
+    font-size: 20px; 
+} 
+.header-right{ 
+    width: 400px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+.header-right button{ 
+    width: 70px; 
+    height: 40px; 
+    background-color: red; 
+    color: white; 
+    font-size: 15px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+} 
+.header-right h3{ 
+    color: white; 
+    height: 40px; 
+    font-size: 15px; 
+    border-radius: 4px; 
+    width: 70px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    cursor: pointer; 
+} 
+.header-right h3:hover{ 
+    background-color: red; 
+} 
+.walpaper img{ 
+    width: 200px; 
+    height: 200px; 
+} 
+.walpaper h1{ 
+    color: orangered; 
+} 
+.walpaper h1:hover{ 
+    color: orange; 
+}
