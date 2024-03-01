@@ -38,3 +38,11 @@
 .result:hover{
     background-color: red;
 }
+.box {
+    width: 250px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #f4f4;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 24px 48px;
+}
