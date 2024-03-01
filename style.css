@@ -35,3 +35,6 @@
     background-color: aqua;
     margin: 0 auto;
 }
+.result:hover{
+    background-color: red;
+}
