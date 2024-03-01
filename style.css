@@ -19,3 +19,13 @@
     background-color: rgb(0, 0, 0);
 }
 
+.islam{
+    width: 500px;
+    height: 500px;
+    margin: 100px;
+    background-color: blue;
+    align-items: center;
+}
+.islam:hover{
+    background-color: chartreuse;
+}
