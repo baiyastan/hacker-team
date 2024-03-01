@@ -4,3 +4,11 @@
     border-radius: 50%;
     background-color: #0f440f;
 }
+
+.watch {
+    width: 200px;
+    height: 200px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #ec00a9;
+}
