@@ -69,8 +69,14 @@
 }
 
 
-img {
+.img1 {
     width: 900px;
     height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 24px 48px;
+}
+
+img {
+    width: 350px;
+    height: 300px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 24px 48px;
 }
