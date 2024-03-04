@@ -1,0 +1,111 @@
+:root {
+    --main-color: #3498db;
+    --success-color: #2ecc71;
+    --error-color: #e74c3c;
+    --text-color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: var(--text-color);
+    border-radius: 5px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 24px 48px;
+    height: 600px;
+}
+.form {
+    padding: 30px 40px;
+}
+.face-control{
+    display: flex;
+    gap: 3%;
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+.form h2,p {
+    display: grid;
+    text-align: center;
+    justify-content: space-around;
+}
+.img-control{
+    width: 150px;
+    height: 150px;
+}
+.line-div{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(185, 181, 181);
+    margin: 0 auto;
+}
+.face-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 4%;
+}
+
+.number-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+.password-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 5%;
+}
+.year-control{
+    display: grid;
+    margin-top: 5%;
+}
+.control{
+    display: flex;
+    margin-top: 5%;
+    display: flex;
+    gap: 5%;
+}
+select{
+    width: 140px;
+    padding: 8px;
+    gap: 3%;
+    position: relative;
+}
+.button-control{
+    margin-left: 120px;
+    display: grid;
+    gap: 2px;
+}
+.reg-btn{
+    width: 50%;
+    height: 35px;
+    background-color: green;
+    color: white;
+    border-radius: 6px;
+    margin: 20px;
+}
+.button-control p{
+    color: #3498db;
+    margin-right: 100px;
+}
